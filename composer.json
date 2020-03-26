@@ -1,0 +1,17 @@
+{
+  "name": "born/cart-to-csv",
+  "description": "Exports the customer cart to a CSV",
+  "require": {
+    "php": "~7.1"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Born\\CartToCsv\\": ""
+    }
+  }
+}
